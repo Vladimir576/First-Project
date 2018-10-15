@@ -1,0 +1,166 @@
+body {
+  font-family: 'FF DIN' 'Cambria' 'Cochin' Georgia, Times, 'Times New Roman', serif;
+  width: 100%; 
+height: 100%; 
+padding: 0px; 
+margin: 0px;
+overflow-x: hidden;  
+}
+
+
+  .header {
+    width: 100%;
+   background: #4b73b5;
+    margin-bottom: 50px;
+    height: 76px; 
+    margin-right: 23px;
+}
+.header .container {
+  position: relative;
+  height: 77px;
+  }
+
+  .logo {
+    position: absolute;
+    top: 10px;
+    left: 0;
+  
+  }
+
+.logo__picture {
+  height: 35px;
+  width: 121px;
+  margin-top: 10px;
+  margin-left: 106px; 
+  }
+  
+
+.contacts {
+  position: absolute;
+  right: 0;
+  margin-top: 13px;
+  margin-right: 192px;
+
+}
+
+.contacts__phone {
+  font-size: 21px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.contacts__desc {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+}
+ 
+
+
+.air-photo {
+  margin-left: 252px; 
+ }
+
+
+  
+  
+      .menu__item {
+        list-style: none;
+        text-decoration: none;
+        width: 23px;
+        height: 18px;
+        display: inline-block;
+      }
+    
+
+      .menu__link, .menu__team, .menu__coment {
+        text-decoration: none;
+        height: 18px;
+      }
+      .basecontebnt__sidebar {
+        width: 109px;
+        display: inline-block;
+        vertical-align: top;
+      }
+      .menu {
+        height: 109px;
+        position: relative;
+        bottom: 281px;
+        margin-left: 74px;
+      }
+      .course  {
+        display: inline-block;
+        margin-left: 252px; 
+        
+      }
+      .tarifs {
+        margin-left: auto;
+        margin-right: auto;
+        width: 730px; 
+      
+      }
+      .tarifs {
+        display: flex;
+      }
+      .standart {
+        width: 244px;
+      }
+      .premium {
+       max-width: 244px;
+        border: 1px solid #e8e9ed;
+        border-radius: 10px;
+        border-top: 66px;
+        
+      }
+    .luxury {
+      margin-left: 43px;
+    }
+
+    .standart__image, .stand, .premium__image, .luxury__image{
+      margin-left: 34.5px; 
+    }
+    .premium {
+      padding-left: 43px;
+    }
+    .cent {
+      margin-top: 41px;
+    }
+     .height {
+       position: relative;
+        bottom: 120px;
+     }
+    
+    .luxury__rate__servicec, .premium__rate__servicec, .standart__rate__services {
+      position: relative;
+      right: 34px;
+      padding-left: 20px;
+    }
+    .list {
+      list-style: none;
+    }
+    .desc {
+      
+      color:#c9d5e9;
+    }
+    .desc:hover {
+      color: white;
+    }
+    .desc:hover::after {
+      content: attr(title);
+    }
+    .desc:hover::after {
+      content: attr(title);
+      position: absolute;
+      left: 0; right: 0; bottom: -60px; 
+    background: #fff ;
+    color: #1c5bc3;
+    z-index: 3; 
+    text-align: center; 
+   font-size: 16px;
+    padding: 10px 10px; 
+    border: 1px solid  #333;
+    
+   }
+ 
+    
+    
+    
