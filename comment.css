@@ -368,4 +368,13 @@ input:hover {
 textarea {
     margin-bottom: 20px;
 }
+.p {
+    color: #fff;
+    font-size: 16px;
+}
+.zayavka {
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+}
 
