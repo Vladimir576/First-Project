@@ -43,43 +43,124 @@ a {
 .desc:hover {
     color: white;
   }
-  .menu__item {
-    display: flex;
-    list-style: none; 
-    height: 200px;
-    align-items: flex-start;
-    flex-direction: column; 
+  
+    ul:nth-child(1) {
+        height: 200px;
+    }
+    
+    
+    .menu__link {
+        font-size: 12px;
+        text-transform: uppercase; 
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+    
+    .comment__link:hover, .comment__link--active {
+         color: #221f1f;
+    }
+    
+    .menu__link--main:hover:before, .menu__link--active.menu__link--main:before {
+        background-image: url(main_icon23.png);
+    }
+    
+    .menu__link:before { 
+        content: "";
+        width: 24px;
+        height: 18px;
+        background-position: center center;
+        background: url(main_icon23.png) center center;
+        background-repeat: no-repeat;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 15px;
+        margin-bottom: 2px;
+    }
+    
+    
+    
+    .comment__link:before { 
+        content: "";
+        width: 24px;
+        height: 18px;
+        background-position: center center;
+        background: url(feed_icon.png) center center;
+        background-repeat: no-repeat;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 15px;
+        margin-bottom: 2px;
+    }
+    .comment__link {
+        font-size: 12px;
+        text-transform: uppercase; 
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+    
+    
+    .comment__link--main:hover:before, .comment__link--active.comment__link--main:before {
+        background-image: url(feed_icon.png);
+    }
+    
+    .comment__link:before { 
+        content: "";
+        width: 24px;
+        height: 18px;
+        background-position: center center;
+        background: url(feed_icon.png) center center;
+        background-repeat: no-repeat;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 15px;
+        margin-bottom: 2px;
+    }
+    .crew__link {
+        font-size: 12px;
+        text-transform: uppercase; 
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+    
+    
+    .crew__link--main:hover:before, .crew__link--active.crew__link--main:before {
+        background-image: url(team_icon.png);
+    }
+    
+    .crew__link:before { 
+        content: "";
+        width: 24px;
+        height: 18px;
+        background-position: center center;
+        background: url(team_icon.png) center center;
+        background-repeat: no-repeat;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 15px;
+        margin-bottom: 2px;
+    }
+    
+    .menu__item, .comment__item, .crew__item {
+        padding-bottom: 30px; 
+    }
+
+.menu__list {
+    list-style-type: none;
 }
-
-
 .link, .team, .coment {
     margin-bottom: 30px;
 } 
 
-.menu__coment {
-     color: black;
-     font-weight: 500;
-
-}
 .switch {
     width: 1060px;
     display: flex;
     align-items: baseline;
 } 
 .pick {
-    padding-left: 200px ; 
+    padding-left: 65px ; 
     margin-bottom: 20px;
 }
-.micon {
-    height: 18px;
-    width: 21px;
-    position: relative;
-    right: 15px;
-}
-.decor {
-    margin-right: 18px;
-    font-size: 18px;
-}
+
 .check {
     font-size: 15px;
 }
@@ -93,7 +174,7 @@ a {
 .maincontent {
     width: 1060px;
     margin-top: -200px;
-    margin-left: 180px;
+    margin-left: 45px;
 }
 hr {
     border-width: 0px;
