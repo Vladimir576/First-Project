@@ -23,13 +23,12 @@ a {
     display: flex;
     justify-content: space-between;    
     align-items: center;
-    height: 100%;
-    width: 100%;
+    width: 1060px;
 }
 .contacts {
     text-align: right;
      line-height: 25px;
-     padding-right: 20px;
+    
 }
 .logo {
     padding-left: 20px;
