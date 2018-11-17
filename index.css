@@ -409,3 +409,9 @@ a {
 .maincontent__container {
     width: 880px;
 }
+.crew__link:hover{
+     color: black;
+}
+.comment__link:hover {
+    color: black;
+}

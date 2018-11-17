@@ -23,29 +23,33 @@ a {
     display: flex;
     justify-content: space-between;    
     align-items: center;
-    width: 1060px;
-}
-.contacts {
-    text-align: right;
-     line-height: 25px;
+    height: 100%;
+    padding-left: 44px;
     
 }
-.logo {
-    padding-left: 20px;
+.contacts {
+    padding-right: 44px; 
 }
-.contacts__phone {
-font-weight: 700;
-font-size: 21px;
-text-decoration: none;
- color: #fff;
+a {
+    text-decoration: none;
+}
+.contacts {
+   text-align: right;
+    line-height: 25px;
 } 
-.desc {
-color: #ffffff;
-opacity: 0.7;
-font-size: 14px;
- font-weight: 700;
+.contacts__phone {
+     font-weight: 700;
+    font-size: 21px;
+    text-decoration: none;
+     color: #fff;
 }
-ul:nth-child(1) {
+.desc {
+    color: #ffffff;
+    opacity: 0.7;
+     font-size: 14px;
+     font-weight: 700;
+}
+.menu__list {
     height: 200px;
 }
 
@@ -216,6 +220,19 @@ em {
 .crew-text{
     font-size: 14px;
 }
+.menu__link:hover {
+    color: black;
+}
+.comment__link:hover {
+    color: black;
+}
+.crew {
+    width: 1080px;
+    display: flex;
+    justify-content: flex-start;
 
-
+}
+.maincontent, .teammer {
+    margin-left: 80px;
+}
 
