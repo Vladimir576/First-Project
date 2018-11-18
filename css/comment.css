@@ -520,14 +520,5 @@ input[type="checkbox"] {
 .title-cnbx {
     padding-top: 10px;
 }
-.button-text:hover {
-    color: #4b73b5;
-    border: ;
-    height: 45px;
-    width: 154px;
-}
-button:hover {
-    border-color: white white white white;
-    background: white;
-}
+
 
