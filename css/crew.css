@@ -165,15 +165,12 @@ margin-bottom: 30px;
     text-decoration: underline;
     color: #6e96d9;
 }
-.maincontent {
-    padding-left: 200px;
-}
-.teammer{
-    padding-left: 80px;
-}
 em {
     position: relative;
     bottom: 215px;
+}
+.teammer {
+    margin-left: 120px;
 }
 .crew-block {
     width: 270px;
@@ -188,7 +185,7 @@ em {
     flex-wrap: wrap;
     list-style: none;
     position: relative;
-    bottom: 180px;   
+    bottom: 200px;   
     width: 1020px;
      list-style: none;
 }
@@ -198,7 +195,7 @@ em {
 .fio {
     font-weight: bold;
     padding-bottom: 9px;
-    
+
     font-size: 17px;
     
 }
@@ -232,9 +229,7 @@ em {
     justify-content: flex-start;
 
 }
-.maincontent, .teammer {
-    margin-left: 80px;
-}
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -256,4 +251,11 @@ footer {
 .line {
     line-height: 5px;
 }
-
+.maincontent {
+    padding-left: 200px;
+}
+.h1 {
+    position: relative;
+    bottom: 215px;
+    margin-left: 200px;
+}

@@ -3,8 +3,8 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 }
 .header {
     background: #4b73b5;
-    height: 70px;
-    margin-bottom: 25px;
+    height: 76px;
+    margin-bottom: 45px;
 }
 .desc:hover {
     color: white;
@@ -14,9 +14,16 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
     display: flex;
     justify-content: space-between;    
     align-items: center;
-    height: 100%;
+    height: 76px;
     padding-left: 44px;
-    
+    height: 100%;
+}
+em {
+    position: relative;
+    bottom: 215px;
+}
+.pick {
+    margin-left: 200px;
 }
 .contacts {
     padding-right: 44px; 
@@ -151,15 +158,8 @@ a {
     margin-bottom: 30px;
 } 
 
-.switch {
-    width: 1060px;
-    display: flex;
-    align-items: baseline;
-} 
-.pick {
-    padding-left: 65px ; 
-    margin-bottom: 20px;
-}
+
+
 
 .check {
     font-size: 15px;
@@ -173,8 +173,7 @@ a {
 }
 .maincontent {
     width: 1060px;
-    margin-top: -200px;
-    margin-left: 45px;
+    margin-top: -215px;
 }
 hr {
     border-width: 0px;
@@ -182,20 +181,21 @@ hr {
     border-bottom-style: solid;
     border-bottom-color: gray;
     position: relative;
-    bottom: 70px;
+    bottom: 75px;
 }
 
 .recall {
     display: flex;
     flex-direction: column;
-    padding-left: 170px;
+    padding-left: 200px;
     padding-right: 25px;
-    width: 887px;
+    width: 880px;
 }
 
 h1 {
-    padding-left: 170px;
+    padding-left: 200px;
 }
+
 .time, .text, .name {
 padding-left: 197px;
 position: relative;
@@ -211,9 +211,7 @@ bottom: 160px;
 li {
     list-style-type: none;
 }
-.h1  {
-    margin-bottom: 50px;
-}
+
 .pagination__display {
     color: #656464;
     font-weight: 300;
@@ -358,13 +356,13 @@ color:#221f1f;
 }
 
 
-
 .ostav {
     font-weight: bold;
     font-size: 49px;
     margin-block-end: 0.83em;
     margin-bottom: 20px;
 }
+
 .title-stay {
     padding-top: 11px;
     margin-bottom: 10px;
@@ -520,5 +518,6 @@ input[type="checkbox"] {
 .title-cnbx {
     padding-top: 10px;
 }
+
 
 

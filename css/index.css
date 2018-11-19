@@ -25,9 +25,10 @@ body {
         width: 1060px;        
     }
 .contacts {
-        text-align: right;
-         line-height: 25px;
+     text-align: right;
+     line-height: 25px;
 }
+
 .contacts__phone {
     font-weight: 700;
     font-size: 21px;
