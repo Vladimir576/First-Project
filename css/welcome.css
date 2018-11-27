@@ -1,0 +1,64 @@
+body {
+    font-family:Roboto, "Roboto"; 
+     overflow-y: hidden;
+}
+* {
+    box-sizing: border-box;
+  }
+.button-text {
+ color: #6a92cf;
+}
+.button-text::after {
+    content: url(../img/main_icon23.png);
+    margin-left: 10px;
+    vertical-align: center;
+}
+.logo {
+  margin-bottom: 35px;
+}
+
+button {
+    height: 45px;
+    width: 207px;
+    border-style: 0px solid;
+    border-color: #6a92cf;
+    background: transparent;
+    border-radius: 3px;
+    }
+.animation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.background {
+    width: 100%;
+    height: 665px;
+   
+}
+.welcome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:  translate(-50%, -50%);
+}
+.wrapper {
+    animation: jump  2s;
+  animation-name: jump;
+}
+
+@keyframes jump {
+  
+    40% {
+     
+        transform: translate3d(0, -30px, 0);
+    }
+    60% {
+     
+     
+        transform: translate3d(0, -15px, 0);
+    }
+    90% {
+        transform: translate3d(0, -4px, 0);
+    }
+   
+}

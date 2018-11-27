@@ -1,5 +1,5 @@
 body {
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-family: Roboto, "Roboto";
 }
 .header {
     background: #4b73b5;
@@ -65,11 +65,11 @@ a {
     
     .comment__link:hover, .comment__link--active {
          color: #221f1f;
-    }
+         
     
-    .menu__link--main:hover:before, .menu__link--active.menu__link--main:before {
-        background-image: url(../img/main_icon23.png);
-    }
+        }
+    
+   
     
     .menu__link:before { 
         content: "";
@@ -106,16 +106,14 @@ a {
     }
     
     
-    .comment__link--main:hover:before, .comment__link--active.comment__link--main:before {
-        background-image: url(../img/feed_icon.png);
-    }
+    
     
     .comment__link:before { 
         content: "";
         width: 24px;
         height: 18px;
         background-position: center center;
-        background: url(../img/feed_icon.png) center center;
+        background: url(../img/feed_icon-hover.png) center center;
         background-repeat: no-repeat;
         display: inline-block;
         vertical-align: middle;
@@ -132,6 +130,7 @@ a {
     
     .crew__link--main:hover:before, .crew__link--active.crew__link--main:before {
         background-image: url(../img/team_icon.png);
+
     }
     
     .crew__link:before { 
@@ -175,14 +174,7 @@ a {
     width: 1060px;
     margin-top: -215px;
 }
-hr {
-    border-width: 0px;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: gray;
-    position: relative;
-    bottom: 75px;
-}
+
 
 .recall {
     display: flex;
@@ -200,7 +192,11 @@ h1 {
 padding-left: 197px;
 position: relative;
 bottom: 160px;
+border-bottom: #f5f5f5;
+
 }
+
+
 .time {
     color: #8e8d8d;
 }
@@ -518,6 +514,57 @@ input[type="checkbox"] {
 .title-cnbx {
     padding-top: 10px;
 }
+.menu__link--main:hover:before {
+    color: black;
+    background-image: url(../img/main_icon.png);
+}
+.crew__link--main:hover:before  {
+    background-image: url(../img/team_icon-hover.png);
+}
+hr {
+    border-width: 0px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    position: relative;
+    bottom: 65px;
+}
+.next {
+    margin-top: 5px;
+    margin-left: 10px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    background-color: #d2def3;
+    border-radius: 50%; 
+}
+.next1 {
+  margin-top: 5px;
+text-align: center;
+width: 20px;
+height: 20px;
+background-color: #d2def3;
+border-radius: 50%; 
+}
+.vk, .ml, .tw, .gl, .fbf {
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%; 
+}
+.simpl {
+    display: flex;
+}
+.next:hover {
+background-color: white;
+transition: 0.2s;
+}
+.next1:hover {
+    background-color: white;
+    transition: 0.2s;
+}
+
 
 
 
