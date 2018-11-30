@@ -149,6 +149,8 @@ aside {
     display: flex;
     justify-content: flex-start;
     padding-left: 340px;
+    font-size: 49px;
+      
 }
 
 .tarifs {
@@ -164,6 +166,7 @@ aside {
     box-sizing: border-box;
     text-align: center ;
 }
+
 .premium__rate__servicec {
     display: flex;
     justify-content: flex-start;
